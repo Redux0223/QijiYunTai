@@ -1,0 +1,99 @@
+/* 尾注基本样式 */
+footer {
+    padding: 3rem;
+    color: rgb(209, 213, 219);
+    background-color: rgb(17, 24, 39);
+}
+
+/* 尾注段落样式 */
+footer p {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgb(31, 41, 55);
+}
+
+/* 尾注容器样式 */
+footer .Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+/* 容器元素标题样式 */
+footer .Container h3 {
+    margin-bottom: 1rem;
+}
+
+/* 联系方式图标样式 */
+footer .Container .Infomations img {
+    margin-right: 0.5rem;
+}
+
+/* 联系方式容器样式 */
+footer .Container .Infomations .Contact div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* 快速链接容器样式 */
+footer .Container .Link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* 链接按钮样式 */
+footer .Container .Link button {
+    border: none;
+    margin-bottom: 1rem;
+    font-size: medium;
+    color: rgb(209, 213, 219);
+    background-color: transparent;
+}
+
+/* 社交链接容器样式 */
+footer .social-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+/* 社交链接基本样式 */
+footer .social-link {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+/* Bilibili链接样式 */
+footer .bilibili-link {
+    background-color: #FB7299;
+    color: white;
+}
+
+footer .bilibili-link:hover {
+    background-color: #fc85a7;
+    transform: translateY(-2px);
+}
+
+/* 抖音链接样式 */
+footer .douyin-link {
+    background-color: #000000;
+    color: white;
+}
+
+footer .douyin-link:hover {
+    background-color: #333333;
+    transform: translateY(-2px);
+}
